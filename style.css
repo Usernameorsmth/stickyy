@@ -1,0 +1,13 @@
+body{background-color: rgb(124, 35, 35); color: beige; font-family: Georgia, 'Times New Roman', Times, serif;}
+
+h1{color: rgb(255, 255, 255);} 
+a{color: rgb(117, 141, 98);}
+a:hover{color: rgb(255, 255, 255);}
+ul> li {font-weight: 1000; color: rgb(131, 163, 125);}
+h1 + p {background-color: rgb(126, 68, 68); padding: 10px; border-radius: 5px;}
+ul li:hover {color: rgb(59, 17, 17);}
+ul li :nth-child(3){background-color: rgb(255, 255, 255);} 
+p:not(:first-of-type) {text-decoration: underline;}
+ul li:before {content: "🏅";}
+a::after {content: "💪🏿";}
+p::first-letter{font-size: 200%; color: rgb(111, 143, 111);}
